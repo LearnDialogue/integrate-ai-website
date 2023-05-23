@@ -422,7 +422,7 @@ body>.navbar .brand:hover {
 	background-image: url(/images/integrate-ai-logo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
 }
 
 .lead {
@@ -625,6 +625,18 @@ ul.sponsors {
 	width: 40%;
 	bottom: unset;
 	border-radius: 4px;
+}
+
+.carousel-caption-2 {
+	left: unset;
+	right: -20px;
+	bottom: 40px;
+	top: unset;
+}
+
+.carousel-caption-3 {
+	bottom: 40px;
+	top: unset;
 }
 
 .carousel-caption h4 {
