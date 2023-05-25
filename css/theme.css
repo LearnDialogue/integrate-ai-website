@@ -620,18 +620,20 @@ ul.sponsors {
 
 .carousel-caption {
 	background-color: rgba(255, 255, 255, 0.8);
-	left: 20px;
-	top: 40px;
+	left: unset;
+	top: unset;
+	bottom: 40px;
+	right: 40px;
 	width: 40%;
-	bottom: unset;
 	border-radius: 4px;
 }
 
 .carousel-caption-2 {
 	left: unset;
-	right: -20px;
-	bottom: 40px;
-	top: unset;
+	right: unset;
+	bottom: unset;
+	top: 40px;
+	left: 40px;
 }
 
 .carousel-caption-3 {
@@ -654,6 +656,8 @@ ul.sponsors {
 
 #main-carousel {
 	margin-bottom: 0;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 .top-header {
@@ -682,4 +686,8 @@ ul.sponsors {
 	z-index: -1;
 	width: 100%;
 	height: 100%;
+}
+
+.img-research {
+	max-width: 600px;
 }
