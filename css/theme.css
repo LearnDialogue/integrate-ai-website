@@ -727,3 +727,7 @@ ul.sponsors {
 	font-size: 24px;
 	color: rgb(95, 114, 127);
 }
+
+.main-p-1 {
+	padding: 0;
+}
